@@ -2,7 +2,7 @@
 
 echo "🔍 Starting test for Hello, World! output..."
 
-APP_FILE="my_app/app.py"
+APP_FILE="../bin/my_app/app.py"
 
 if [ -f "$APP_FILE" ]; then
     echo "✅ Found $APP_FILE, executing..."
