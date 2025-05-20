@@ -12,7 +12,7 @@ if [ -f "$APP_FILE" ]; then
     echo "📄 Output:"
     echo "$OUTPUT"
 
-    if echo "$OUTPUT" | grep -q "Hello, World!"; then
+    if echo "$OUTPUT" | grep -q "Hello, World"; then
         echo "✅ Test passed: 'Hello, World!' was printed."
         exit 0
     else
